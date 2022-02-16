@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 5000 --open",
+    "build": "typecheck && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.ts,.vue src --ignore-path .gitignore . --fix",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@vueuse/head": "^0.7.4",
+    "pinia": "^2.0.6",
+    "vue": "^3.2.26",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@iconify/json": "^1.1.444",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.26",
+    "config": "workspace:*",
+    "prettier": "^2.5.1",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.5.3",
+    "unplugin-icons": "^0.12.23",
+    "unplugin-vue-components": "^0.17.9",
+    "vite": "^2.7.3",
+    "vite-plugin-pages": "^0.19.4",
+    "vite-plugin-vue-layouts": "^0.5.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
